@@ -7,6 +7,10 @@
 
 import UIKit
 
+protocol LogoutDelegate : AnyObject {
+    func didLogout()
+}
+
 protocol LoginViewControllerDelegate: AnyObject {
     func didLogin()
 }
@@ -37,6 +41,11 @@ class LoginViewController: UIViewController {
         style()
         layout()
     }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        signInButton.configuration?.showsActivityIndicator = false
+    }
 
 
 }
@@ -47,6 +56,7 @@ class LoginViewController: UIViewController {
 extension LoginViewController {
     private func style(){
         loginView.translatesAutoresizingMaskIntoConstraints = false
+        
         
         signInButton.translatesAutoresizingMaskIntoConstraints = false
         signInButton.configuration = .filled()

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8601BA12D402CB500EFA4D7 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8601BA02D402CB500EFA4D7 /* DummyViewController.swift */; };
 		D8EAA2AC2D3ABCFD00E618B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EAA2AB2D3ABCFD00E618B5 /* AppDelegate.swift */; };
 		D8EAA2B02D3ABCFD00E618B5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EAA2AF2D3ABCFD00E618B5 /* LoginViewController.swift */; };
 		D8EAA2B52D3ABCFE00E618B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8EAA2B42D3ABCFE00E618B5 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D8601BA02D402CB500EFA4D7 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
 		D8EAA2A82D3ABCFD00E618B5 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8EAA2AB2D3ABCFD00E618B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8EAA2AF2D3ABCFD00E618B5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				D8EAA2AF2D3ABCFD00E618B5 /* LoginViewController.swift */,
 				D8EAA2C12D3AC1EC00E618B5 /* LoginView.swift */,
+				D8601BA02D402CB500EFA4D7 /* DummyViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8EAA2C22D3AC1EC00E618B5 /* LoginView.swift in Sources */,
+				D8601BA12D402CB500EFA4D7 /* DummyViewController.swift in Sources */,
 				D8EAA2B02D3ABCFD00E618B5 /* LoginViewController.swift in Sources */,
 				D8EAA2CB2D3E135200E618B5 /* OnboardingViewController.swift in Sources */,
 				D8EAA2AC2D3ABCFD00E618B5 /* AppDelegate.swift in Sources */,
